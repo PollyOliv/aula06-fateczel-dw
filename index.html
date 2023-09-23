@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu perfil</title>
+    <title>Aula 6</title>
 </head>
 <body>
 
-    <h1>Meu Perfil</h1>
+    <div> 
+    <h1>Infos</h1>
     <p> <strong> Nome: </strong> Polly Oliveira </p>
     <p><strong>RA:</strong> 1111392321042</p>
     <p><strong>Curso:</strong> Desenvolvimento de Software Multiplataforma</p>
@@ -45,12 +46,161 @@
 
 <a href="https://www.google.com/">GOOGLE</a>
 
+</div>
+
+
+
+
 <div>
+<table>
+<thead>
+    
 
-<p> Exemplo de div </p>
+<tr>
+
+<th>Nome:</th>
+<th>Idade:</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+<th>João</th>
+<th>25 anos</th>
+
+
+</tr>
+
+<tr>
+<th>Maria</th>
+<th>30 anos</th>
+</tr>
+
+
+
+<tfoot> 
+
+<th> <td> Há dois registros!</td></th>
+
+
+</tfoot>
+
+
+</table>
 
 </div>
 
-</div>
+<h2> Criando Listas!</h2>
+
+<h3>Lista dos campeões do mundo FIFA</h3>
+
+<ol>
+
+<li> Brasil</li>
+<li> Alemanha</li>
+<li> Itália</li>
+<li> Argentina</li>
+<li> França</li>
+<li> Uruguai</li>
+<li> Espanha</li>
+<li> Inglaterra</li>
+
+
+</ol>
+
+<ul> Brasil</ul>
+<ul> Alemanha</ul>
+<ul> Itália</ul>
+<ul> Argentina</ul>
+<ul> França</ul>
+<ul> Uruguai</ul>
+<ul> Espanha</ul>
+<ul> Inglaterra</ul>
+
+    </div>
+
+    <div>
+
+    <h2> Criando Formulário</h2>
+
+    <form action="#" method="post">
+    
+    <label>Nome Completo:</label>
+    <input type="text" id="nome_completo" name="nome_completo"></input> 
+    <br>
+
+    <label>Email:</label>
+    <input type="email" id="email_aluno" name="email_aluno"></input>
+    <br>
+
+    <label> Senha:</label>
+    <input type="password" id="senha_aluno" name="senha_aluno"></input>
+    <br>
+
+    <label> Data de Nascimento:</label>
+    <input type="date" id="dt_nascimento_aluno" name="dt_nascimento_aluno"></input>
+    <br>
+
+    <label> CPF</label>
+    <input type="number" id="cpf_aluno" name="cpf_aluno"></input>
+    <br>
+
+    <label> Sexo</label>
+    <input type="radio" value="Masculino" id="radio_sexo_masc" name="radio_sexo">Masculino</input>
+    <input type="radio" value="Feminino" id="radio_sexo_fem" name="radio_sexo">Feminino</input>
+    <input type="radio" value="Indefinido" id="radio_sexo_ind" name="radio_sexo">Indefinido</input>
+    <br>
+
+    <label> Minha cor Favorita:</label>
+    <input type="color" id="cor_aluno" name="cor_aluno"><br>
+
+    <label>Minhas Linguagens Favoritas</label>
+    <select id="linguagem_favorita" multiple>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="PHP">PHP</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+      <br>
+
+    <label> Idioma Favorito</label>
+    <select id="idioma_favorito">
+        <option value="Portugues">Portugues</option>
+        <option value="Ingles">Ingles</option>
+        <option value="Espanhol">Espanhol</option>
+        <option value="Italiano">Italiano</option>
+    </select>
+    <br>
+
+
+        <label> Comentário</label>
+        <textarea id="comentario_aluno" rows="10"></textarea>
+        <br>
+
+        <label>Aceita os termos</label>
+        <input type="checkbox" id="aceite" nome="aceite" required>
+        <br>
+
+        <input type="submit" id="enviar_form" nome="enviar_form" value="Enviar">
+        <br>
+
+
+    </form>
+
+
+    <!-- CTRL+; : Comentar código-->
+    <!-- Alt + Shift + F: utilizado para organizar e identificar código-->
+    <!-- Alt + Shift + SETA: copiar linha para copiar linha para cima ou para baixo -->
+    <!-- CTRTL+D: Selecionar texto iguais ou similares-->
+
+
+
+
+
+    </div>
+
+
+
 </body>
 </html>
