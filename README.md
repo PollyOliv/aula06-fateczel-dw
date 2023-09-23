@@ -1,0 +1,1 @@
+# aula06-fateczel-dw
