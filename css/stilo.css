@@ -1,0 +1,39 @@
+p{
+
+    font size: 20px; ;
+    color: coral;
+}
+
+:root{
+
+    --cor-fonte:coral;
+    --font:100px
+}
+
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2{
+
+
+    font-size: var(--font);
+    color: var(--cor-fonte)
+
+}
+
+h6{
+
+    font-size: var(--font);
+    color: var(--cor-fonte)
+
+}
+
+
+p{
+    font-size: var(--font);
+    color: var(--cor-fonte)
+
+    
+}
