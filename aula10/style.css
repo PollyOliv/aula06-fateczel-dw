@@ -1,0 +1,66 @@
+*{
+
+    background-color: rgb(219, 223, 171);
+}
+
+#souDiv1ID{
+    height: 100px ;
+    width: 100px;
+    background-color: rgb(255, 0, 21);
+    margin: 10px 30px 1opx 30px; /*Aplicando margem em Top, Right, bottom e Left - Sentido horário*/
+    border: 2px solid;
+    border-color: black;
+}
+
+p.souDiv1classe{
+
+    font-size: 28px;
+
+}
+
+.souDiv1classe{
+    height: 100px;
+    width: 50% ;
+    margin: 100px; /*Aplicando uma margem nos 4 lados(Top, bottom, left, right)*/
+    background-color: rgb(226, 226, 226);
+
+}
+
+p.divPadding{
+
+    padding: 50px;
+    width: 50%;
+    border:  2px solid;
+    background-color: blue;
+}
+
+.block-element{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+.inline-element{
+    display: inline;
+    background-color: rgb(199, 102, 102);
+    padding: 5px;
+
+}
+.inline-block-element{
+display: inline-block;
+width: 300px;
+height: 100px;
+background-color: chartreuse;
+margin-top: 10px;
+
+}
+.none-element{
+font-size: 50px;
+font-family:sans-serif;
+width: 100%;
+height: 100px;
+background-color: aquamarine;
+
+}
+
